@@ -1,0 +1,482 @@
+
+Database 
+
+CREATE DATABASE mamun_al_mahtab;
+GRANT ALL ON mamun_al_mahtab.* TO 'drmamun'@'localhost' IDENTIFIED BY 'profshwapnil';
+GRANT ALL ON mamun_al_mahtab.* TO 'drmamun'@'127.0.0.1' IDENTIFIED BY 'profshwapnil';
+
+
+Table 
+
+1) Admin
+
+CREATE TABLE admin(
+	admin_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    name varchar(128)  NOT NULL,
+    email varchar(128)  NOT NULL, 
+    password varchar(128)  NOT NULL,
+    INDEX(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+2) About
+
+CREATE TABLE about (
+    about_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    paragraph longtext,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+3) Fellowships
+
+CREATE TABLE fellow (
+    fellow_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    year varchar(128)  NOT NULL,
+    society varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+4) Academic Scholarships and Awards
+
+CREATE TABLE academic (
+    academic_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    year varchar(128)  NOT NULL,
+    scholarship varchar(128)  NOT NULL,
+    abody varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+5) Research Awards
+
+CREATE TABLE researchaw (
+    researchaw_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    year varchar(128)  NOT NULL,
+    scholarship varchar(128)  NOT NULL,
+    abody varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+6) Other Awards
+
+CREATE TABLE otheraw (
+    otheraw_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    year varchar(128)  NOT NULL,
+    scholarship varchar(128)  NOT NULL,
+    abody varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+7) Books Edited
+
+CREATE TABLE books_edited (
+    book_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    book_name varchar(128)  NOT NULL,
+    ISBN varchar(128)  NOT NULL,
+    author_name varchar(128)  NOT NULL,
+    publisher varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+8) chapter
+
+CREATE TABLE chapter (
+    chapter_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    chapter_name varchar(128)  NOT NULL,
+    author_name varchar(128)  NOT NULL,
+    book_name varchar(128)  NOT NULL,
+    page varchar(128)  NOT NULL,
+    ISBN varchar(128)  NOT NULL,
+    editor_name varchar(128)  NOT NULL,
+    publisher varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+9) advisory board member 
+
+CREATE TABLE advisory (
+    
+    advisory_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title varchar(128)  NOT NULL,
+    edition varchar(128)  NOT NULL,
+    publisher varchar(128)  NOT NULL,
+    board varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+10) INVITED International Conference 
+
+CREATE TABLE inter_conf (
+    
+    inter_conf_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title varchar(128)  NOT NULL,
+    conf_name varchar(128)  NOT NULL,
+    date varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+11) INVITED National Conference 
+
+CREATE TABLE nat_conf (
+    
+    nat_conf_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title varchar(128)  NOT NULL,
+    conf_name varchar(128)  NOT NULL,
+    date varchar(128)  NOT NULL,
+    
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+12) Interventions 
+
+CREATE TABLE intervention (
+    
+    intervention_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    intervention_type varchar(128)  NOT NULL,
+    description varchar(128) NOT NULL,
+    intervention_name varchar(128)  NOT NULL,
+   
+    
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+13) Member of Journal Editorial Boards International Journal
+
+CREATE TABLE journal_int_journal (
+    
+    journal_int_journal_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title varchar(128)  NOT NULL,
+    official_publication varchar(128)  NOT NULL,
+    position varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+14) Member of Journal Editorial Boards National Journal
+
+CREATE TABLE journal_nat_journal (
+    
+    journal_nat_journal_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title varchar(128)  NOT NULL,
+    official_publication varchar(128)  NOT NULL,
+    position varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+15) Oral Presentation International Conference
+
+CREATE TABLE oral_inter_conf (
+    
+    oral_inter_conf_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title varchar(128)  NOT NULL,
+    conf_name varchar(128)  NOT NULL,
+    date varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+16) Oral Presentation National Conference
+
+CREATE TABLE oral_nat_conf (
+    
+    oral_nat_conf_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title varchar(128)  NOT NULL,
+    conf_name varchar(128)  NOT NULL,
+    date varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+17) Session Chair International Conference
+
+CREATE TABLE session_inter_conf (
+    
+    session_inter_conf_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title varchar(128)  NOT NULL,
+    conf_name varchar(128)  NOT NULL,
+    date varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+18) Session Chair National Conference
+
+CREATE TABLE session_nat_conf (
+    
+    session_nat_conf_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title varchar(128)  NOT NULL,
+    conf_name varchar(128)  NOT NULL,
+    date varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+19) Jury/Moderator/Panelist/Resource Person  International Conference
+
+CREATE TABLE jury_inter_conf (
+    
+    jury_inter_conf_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title varchar(128)  NOT NULL,
+    conf_name varchar(128)  NOT NULL,
+    date varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+
+20) Jury/Moderator/Panelist/Resource Person  National Conference
+
+CREATE TABLE jury_nat_conf (
+    
+    jury_nat_conf_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title varchar(128)  NOT NULL,
+    conf_name varchar(128)  NOT NULL,
+    date varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+21) Socio-Political Activities 
+
+CREATE TABLE socio (
+    
+    socio_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title longtext  NOT NULL,
+    name longtext  NOT NULL,
+    organized longtext  NOT NULL,
+    date varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+22) Scientific Publications International Journal
+
+CREATE TABLE scientific_int_journal (
+    
+    scientific_int_journal_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title longtext  NOT NULL,
+    author_name longtext  NOT NULL,
+    publication longtext  NOT NULL,
+    page varchar(128)  NOT NULL,
+    PMID varchar(128)  NOT NULL,
+    DOI varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+23) Scientific Publications National Journal
+
+CREATE TABLE scientific_nat_journal (
+    
+    scientific_nat_journal_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title longtext  NOT NULL,
+    author_name longtext  NOT NULL,
+    publication longtext  NOT NULL,
+    page varchar(128)  NOT NULL,
+    PMID varchar(128)  NOT NULL,
+    DOI varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+24) Abstracts International Journal
+
+CREATE TABLE abstract_int_journal (
+    
+    abstract_int_journal_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title longtext  NOT NULL,
+    author_name varchar(128)  NOT NULL,
+    publication longtext  NOT NULL,
+    page varchar(128)  NOT NULL,
+    
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+25) Abstracts National Journal
+
+CREATE TABLE abstract_nat_journal (
+    
+    abstract_nat_journal_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    title longtext  NOT NULL,
+    author_name longtext  NOT NULL,
+    publication longtext  NOT NULL,
+    page varchar(128)  NOT NULL,
+    
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+26) Organizing Experience International
+
+CREATE TABLE organizing_inter (
+    
+    organizing_inter_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    organization varchar(128)  NOT NULL,
+    position longtext  NOT NULL,
+    
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+27)  Organizing Experience National
+
+CREATE TABLE organizing_nation (
+    
+    organizing_nation_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    organization varchar(128)  NOT NULL,
+    position longtext  NOT NULL,
+    
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+28) Memberships of Working Party/Special Interest Groups
+
+CREATE TABLE working_party (
+    
+    working_party_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    year varchar(128)  NOT NULL,
+    membership varchar(128)  NOT NULL,
+    party_name  varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+29) Presence in Media
+
+CREATE TABLE media (
+    
+    media_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    paragraph longtext,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+30) Literary Publications
+
+CREATE TABLE literary (
+    literary_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    publication_name varchar(128)  NOT NULL,
+    author_name varchar(128)  NOT NULL,
+    publisher varchar(128)  NOT NULL,
+    year varchar(128)  NOT NULL,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+31) Image
+
+CREATE TABLE Image (
+  photo_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+  admin_id int,
+  photo_path varchar(10000) DEFAULT NULL,
+  photo_text mediumtext DEFAULT NULL,
+  photo_category varchar(200) DEFAULT NULL
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+32) Contact
+
+CREATE TABLE contact (
+    contact_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    admin_id int,
+    name varchar(128)  NOT NULL,
+    email varchar(128)  NOT NULL,
+    opinion longtext,
+
+    FOREIGN KEY(admin_id) REFERENCES admin(admin_id)
+
+)ENGINE=InnoDB CHARSET=utf8;
+
+
+
+
+demo modify column
+ALTER TABLE contacts
+  MODIFY last_name varchar(50) NULL;

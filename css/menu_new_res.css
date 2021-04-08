@@ -1,0 +1,288 @@
+/* side bar starts here */
+
+@media (max-width: 991px) {
+    .tm-brand-box {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      max-width: 200px;
+      min-height: 100px;
+    }
+
+    .tm-brand {
+      padding: 20px 30px;
+      font-size: 30px;
+    }
+  
+    .tm-main-nav {
+      margin-bottom: 60px;
+    }
+  
+    .tm-social-links {
+      margin-bottom: 30px;
+    }
+    
+    .tm-sidebar {
+      width: 250px;
+      left: -250px;
+      padding: 15px;
+      transition: all 0.3s ease;
+    }
+  
+    .navbar-toggler {
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 10px 15px;
+      transition: all 0.3s ease;
+      border-radius: 0;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      top: 30px;
+      left: 40px;
+      width: 60px;
+      height: 50px;
+      
+    }
+  
+    .navbar-toggler:focus {
+      outline: none;
+    }
+  
+    .tm-sidebar.show {
+      left: 0;
+    }
+  
+    .tm-sidebar.show .navbar-toggler {
+      left:300px;
+    }
+
+    .tm-section-wrap {
+      width: 100%;
+    }
+
+    .nav-link {
+      font-size: 1rem;
+    }
+
+    .nav-link:hover{
+       font-size: 1.2rem;
+       color: sandybrown;
+    }
+
+     /*User info*/
+    .user {
+       font-size: 20px;
+       color: white;
+      transform: translate(0px, -20px);
+    }
+
+    .username {
+      font-size: 25px;
+     color: rgb(255, 255, 255);
+     border: 1px solid white;
+    }
+
+
+  /*Logout button*/
+  .logoutbtn {
+     border: 1px solid white;
+    color: white;
+    padding: 10px 36px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 50px;
+    opacity: 0.6;
+  }
+
+   .tm-main-nav{
+    transform: translateY(80px);
+   }
+
+
+   .menu-img {
+       padding-top: 15px;
+      padding-bottom: 25px;
+      width: 120%;
+      transform: translate(-25px,-20px);
+   }
+}
+
+/* side bar ends here */
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .con {
+        transform: translate(15px, -50px);
+        width:100%;
+    }
+
+    /*session starts here */
+    .session_heading{
+      font-size: 35px;
+     }
+
+     .session{
+      transform: translateY(0px);
+     }
+    /* session ends here */
+    
+}
+
+@media only screen and (max-width: 320px) {
+    .con {
+        transform: translate(-25px, -50px);
+    }
+
+    /*session starts here */
+    .session_heading{
+      font-size: 25px;
+     }
+
+     .session{
+      transform: translateY(0px);
+     }
+    /* session ends here */
+    
+}
+
+@media only screen and (max-width: 290px) {
+
+     /* side bar starts here */
+
+  .tm-brand-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 150px;
+    min-height: 100px;
+  }
+
+  .tm-brand {
+    padding: 20px 30px;
+    font-size: 20px;
+  }
+
+  .tm-main-nav {
+    margin-bottom: 60px;
+  }
+
+  .tm-social-links {
+    margin-bottom: 30px;
+  }
+  
+  .tm-sidebar {
+    width: 220px;
+    left: -250px;
+    padding: 15px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-toggler {
+    display: block;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    top: 30px;
+    left: 40px;
+    width: 60px;
+    height: 50px;
+    
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+  }
+
+  .tm-sidebar.show {
+    left: 0;
+  }
+
+  .tm-sidebar.show .navbar-toggler {
+    left:270px;
+  }
+
+  .tm-section-wrap {
+    width: 100%;
+  }
+
+.nav-link {
+    font-size: 1rem;
+}
+
+.nav-link:hover{
+  font-size: 1.15rem;
+  color: sandybrown;
+}
+
+
+  /*User info*/
+  .user {
+    font-size: 15px;
+    color: white;
+    transform: translate(0px, -20px);
+  }
+  
+  .username {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+  }
+  
+  
+  /*Logout button*/
+  .logoutbtn {
+    border: 1px solid white;
+    color: white;
+    padding: 10px 36px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    opacity: 0.6;
+  }
+  
+  
+  .tm-main-nav{
+    transform: translateY(20px);
+  }
+  
+  
+  .menu-img {
+   padding-top: 15px;
+   padding-bottom: 25px;
+   width: 120%;
+   transform: translate(-25px,-20px);
+  }
+
+  /* side bar ends here */
+
+    .tm-section{
+    width: 100%;
+    
+   } 
+    .con {
+        transform: translate(-40px, -50px);
+        width:50%;
+    }
+
+    /*session starts here */
+       .session_heading{
+        font-size: 25px;
+       }
+
+       .session{
+        transform: translateY(0px);
+       }
+    /* session ends here */
+
+    
+}

@@ -1,0 +1,533 @@
+body {
+    overflow-x: hidden;
+}
+
+/*User info*/
+.user {
+    font-size: 20px;
+    color: white;
+    transform: translate(0px, -120px);
+}
+
+.username {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+}
+
+
+/*Logout button*/
+.logoutbtn {
+    border: 1px solid white;
+    color: white;
+    padding: 10px 36px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 50px;
+    opacity: 0.6;
+}
+
+
+.logoutbtn:hover {
+    text-decoration: none;
+    color: #4d1300;
+    border: 1px solid white;
+    background-color: white;
+    opacity: 1;
+}
+
+/*Sidebar Background Image*/
+.tm-sidebar {
+    position: fixed;
+    background-image: url('../img/sid.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+/* Hide scrollbar */
+
+.tm-sidebar {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+}
+
+.tm-sidebar::-webkit-scrollbar {
+    /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.tm-sidebar-sticky {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*Customer Name Font*/
+
+.tm-brand {
+    font-size: 2.6rem;
+}
+
+.tm-brand-box {
+    box-sizing: content-box;
+    width: 100%;
+    max-width: 230px;
+    min-height: 160px;
+    color: white;
+    text-align: center;
+    margin: 70px auto 90px;
+}
+
+.tm-double-border-1,
+.tm-double-border-2 {
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.tm-double-border-2 {
+    top: 10px;
+    left: 10px;
+}
+
+.tm-border-gray {
+    border-color: #cdcecf;
+}
+
+.tm-box-pad {
+    padding: 50px 55px;
+}
+
+.tm-brand {
+    font-size: 34px;
+    padding: 30px;
+}
+
+.tm-main-nav{
+    transform: translateY(-80px);
+}
+
+
+.menu-img {
+   padding-top: 15px;
+   padding-bottom: 25px;
+   width: 150%;
+   transform: translate(-55px,-60px);
+}
+/*Nav Items Rectangle and Circle*/
+
+.nav-item {
+    text-align: left;
+}
+
+.nav-link span {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link .circle {
+    margin-right: 5px;
+    height: 10px;
+    width: 10px;
+    left: 0px;
+    top: -1px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    transition: all 0.3s;
+}
+
+.nav-link .rect {
+    height: 1px;
+    width: 0px;
+    left: 0;
+    bottom: 5.5px;
+    background-color: #fff;
+    -webkit-transition: -webkit-transform 0.1s, width 0.6s;
+    -moz-transition: -webkit-transform 0.1s, width 0.6s;
+    transition: transform 0.1s, width 0.6s;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.nav-link .rect {
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.tm-sidebar .nav-item>a:hover span,
+.tm-sidebar .nav-item>a:active span {
+    background-color: sandybrown;
+}
+
+.nav-link .circle .active,
+.nav-link:hover .circle {
+    background-color: sandybrown;
+    border: 2px solid sandybrown;
+}
+
+.nav-item .rect .active,
+.nav-item a:hover .rect {
+    opacity: 1;
+    width: 30px;
+}
+
+.nav-link .circle .active,
+.magic .circle {
+    background-color: sandybrown;
+    border: 2px solid sandybrown;
+}
+
+.nav-item .rect .active,
+.magic .rect {
+    opacity: 1;
+    width: 30px;
+}
+
+.nav-link:hover{
+    font-size: 1.4rem;
+    color: sandybrown;
+}
+
+.tm-social-links {
+    margin-bottom: 27px;
+}
+
+.tm-social-link {
+    width: 40px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    margin: 8px;
+    border-radius: 5px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tm-social-link:hover,
+.tm-social-link:focus {
+    background-color: #069;
+    color: white;
+}
+/* side bar ends here */
+
+
+
+/* CONTENT PARTS STARTS HERE */
+/* Insert part  starts here */
+.conf_insert_background {
+    background: linear-gradient(to right, #c6d9ec, #19334d);
+}
+
+.heading {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+.heading2 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.head2{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}
+
+.container-insert {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: 20px;
+    height: 450px;
+}
+
+.form{
+    padding: 5px;
+    padding-top: 50px;
+}
+
+.container-insert .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    padding-left: 25px;
+    margin-left: 10px;
+    text-align: center;
+   
+}
+
+.container-insert .col-65 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+   
+}
+
+
+.container-insert label {
+    padding: 12px 20px 12px 0;
+    display: inline-block;
+    color: #2d5986;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.container-insert input[type=year],
+.container-insert input[type=text],
+.container-insert input[type=password] {
+    box-sizing: border-box;
+	background:none;
+	text-align:center;
+	border:2px solid #003366;
+	padding:14px 10px;
+	width:70%;
+	outline:none;
+	color:black;
+	border-radius:24px;
+    transition:0.25s;
+}
+
+
+.container-insert input[type=year]:focus,
+.container-insert input[type=text]:focus,
+.container-insert input[type=password]:focus{
+    width:85%;
+    font-size: 20px;
+    border-color:#990033;
+    background-color: #d9e6f2;
+}
+
+/* about text */
+.container-insert textarea {
+    box-sizing: border-box;
+	background:none;
+	text-align:center;
+	border:2px solid #003366;
+	padding:14px 10px;
+	width:70%;
+	outline:none;
+	color:black;
+	border-radius:24px;
+    transition:0.25s;
+    margin-left: 20px;
+}
+
+.container-insert input[type=file]{
+    box-sizing: border-box;
+	background:none;
+	text-align:center;
+	border:2px solid #003366;
+	padding:14px 10px;
+	width:70%;
+	outline:none;
+	color:#003366;
+	border-radius:24px;
+    transition:0.25s;
+    
+}
+
+.container-insert select{
+    box-sizing: border-box;
+	background:none;
+	text-align:center;
+	border:2px solid #003366;
+	padding:14px 10px;
+	width:70%;
+	outline:none;
+	color:#003366;
+	border-radius:24px;
+    transition:0.25s;
+   
+}
+
+
+.container-insert textarea:focus{
+    width:85%;
+    font-size: 20px;
+    border-color:#990033;
+    background-color: #d9e6f2;
+}
+
+/* about text ends here */
+.container-insert input[type=submit] {
+    background-color: #2d5986;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 380px;
+}
+
+.container-insert  input[type=submit]:hover{
+    color:#2d5986;
+    border: 2px solid #2d5986;
+    background-color: white;
+    text-decoration: none;
+}
+
+.sign_button {
+
+    color: #2d5986;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.sign_button:hover{
+    color:#2d5986;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.cancelbtn{
+    color:#2d5986;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.cancelbtn:hover {
+    opacity: 1;
+    text-decoration: none;
+    color:#ff0000;
+    font-size: 20px;
+    
+}
+
+/* Insert part ends here */
+
+/* chapter insert starts here */
+
+.container-chapter-insert{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: 20px;
+    height: 700px;
+}
+
+.container-chapter-insert .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    padding-left: 25px;
+    margin-left: 10px;
+    text-align: center;
+   
+}
+
+.container-chapter-insert .col-65 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+   
+}
+
+
+.container-chapter-insert label {
+    padding: 12px 20px 12px 0;
+    display: inline-block;
+    color: #2d5986;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.container-chapter-insert input[type=year],
+.container-chapter-insert input[type=text] {
+    box-sizing: border-box;
+	background:none;
+	text-align:center;
+	border:2px solid #003366;
+	padding:14px 10px;
+	width:70%;
+	outline:none;
+	color:black;
+	border-radius:24px;
+    transition:0.25s;
+}
+
+
+.container-chapter-insert input[type=year]:focus,
+.container-chapter-insert input[type=text]:focus{
+    width:85%;
+    font-size: 20px;
+    border-color:#990033;
+    background-color: #d9e6f2;
+}
+
+/* about text */
+.container-chapter-insert textarea {
+    box-sizing: border-box;
+	background:none;
+	text-align:center;
+	border:2px solid #003366;
+	padding:14px 10px;
+	width:70%;
+	outline:none;
+	color:black;
+	border-radius:24px;
+    transition:0.25s;
+    margin-left: 20px;
+}
+
+
+.container-chapter-insert textarea:focus{
+    width:85%;
+    font-size: 20px;
+    border-color:#990033;
+    background-color: #d9e6f2;
+}
+
+/* about text ends here */
+.container-chapter-insert input[type=submit] {
+    background-color: #2d5986;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 430px;
+}
+
+.container-chapter-insert  input[type=submit]:hover{
+    color:#2d5986;
+    border: 2px solid #2d5986;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+/* chapter inserts ends here */
+
+

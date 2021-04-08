@@ -1,0 +1,1865 @@
+@media (max-width: 1100px) {
+    /* in general */
+     .column{
+        padding-left: 10px;
+        
+    }  
+    /* in general ends here  */
+
+  /* awards starts here */
+    
+  .img_fluid{
+      width: 100%;
+      height: auto;
+  }
+
+  .award .award-content{
+      width: 72%;
+      height: 35%;
+      transform: translate(40px, -172px);
+  }
+  
+
+  .award .title-award-ac{
+      font-size: 20px;
+      width: 85%;
+      text-align: center;
+      transform: translate(10px, 25px);
+      
+  }
+
+  .award .title-award-ra{
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+    transform: translate(30px, 35px);
+  }
+
+  .award .title-award-oa{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    transform: translate(40px, 35px);
+  }
+
+
+  .award  .btn-ac {
+      transform: translate(-60px, -10px);
+  }
+
+  .award  .btn-ra {
+    transform: translate(-60px, -10px);
+  }
+
+  .award  .btn-oa {
+    transform: translate(-60px, -10px);
+  }
+  
+
+
+   /* awards ends here */
+   
+    /* jury starts here */
+   .section-jury {
+     padding: 70px 60px;
+     height: 1100px;
+    }
+
+    .jury{  
+     width: 300px;
+     height: 400px;
+     transform: translate(-60px, 40px);
+    } 
+
+    .jury .jury-content{
+      width: 80%;
+     transform: translate(40px, -200px);
+    }
+
+    /* jury ends here */
+
+    /* journal menu starts here */
+    .journal img{
+      width: 100%;
+      height: auto;
+      transform: translateX(10px);
+      /*padding-right: 100px;*/
+      
+  }
+  
+  .journal .journal-content{
+      transform: translate(45px, -140px);
+  }
+  
+  
+  
+  
+  .section-journal  .btn {
+      transform: translate(-130px, 10px);
+  }
+
+/* journal menu ends here */
+
+/* session chair starts here */
+ .session img{
+  width: 100%;
+  height: auto;
+ }
+
+ .session .session-content{
+  transform: translate(54px, -155px);
+  
+ }
+
+ 
+/* session chair ends here */
+
+}
+
+/* side bar starts here */
+
+@media (max-width: 991px) {
+    .tm-brand-box {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        max-width: 200px;
+        min-height: 100px;
+      }
+
+      .tm-brand {
+        padding: 20px 30px;
+        font-size: 30px;
+      }
+    
+      .tm-main-nav {
+        margin-bottom: 60px;
+      }
+    
+      .tm-social-links {
+        margin-bottom: 30px;
+      }
+      
+      .tm-sidebar {
+        width: 250px;
+        left: -250px;
+        padding: 15px;
+        transition: all 0.3s ease;
+      }
+    
+      .navbar-toggler {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px 15px;
+        transition: all 0.3s ease;
+        border-radius: 0;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        top: 30px;
+        left: 40px;
+        width: 60px;
+        height: 50px;
+        
+      }
+    
+      .navbar-toggler:focus {
+        outline: none;
+      }
+    
+      .tm-sidebar.show {
+        left: 0;
+      }
+    
+      .tm-sidebar.show .navbar-toggler {
+        left:300px;
+      }
+
+      .tm-section-wrap {
+        width: 100%;
+      }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .nav-link:hover{
+      font-size: 1.2rem;
+      color: sandybrown;
+    }
+
+       /*User info*/
+.user {
+  font-size: 20px;
+  color: white;
+  transform: translate(0px, -20px);
+}
+
+.username {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+}
+
+
+/*Logout button*/
+.logoutbtn {
+  border: 1px solid white;
+  color: white;
+  padding: 10px 36px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 50px;
+  opacity: 0.6;
+}
+
+
+
+
+.tm-main-nav{
+  transform: translateY(80px);
+}
+
+
+.menu-img {
+ padding-top: 15px;
+ padding-bottom: 25px;
+ width: 120%;
+ transform: translate(-25px,-20px);
+}
+
+
+
+
+}
+
+/* side bar ends here */
+
+/* 784 starts here */
+@media (max-width: 784px) {
+    .tm-section{
+        width: 95%;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    /*award menu starts here */
+    
+     .award .award-content{
+         width: 80%;
+         height: 35%;
+         transform: translate(40px, -172px);
+     }
+     
+     .award .title-award-ac{
+         font-size: 20px;
+         width: 90%;
+         transform: translate(5px, 40px);
+     }
+
+     .award .title-award-ra{
+        font-size: 20px;
+        width: 90%;
+        transform: translate(0px, 60px);
+     }
+
+     .award .title-award-oa{
+        font-size: 20px;
+        width: 90%;
+        transform: translate(0px, 60px);
+     }
+
+     .award  .btn-ac {
+        font-size: 16px;
+        transform: translate(-60px, -5px);
+        border-top-right-radius: 25px;
+        border-bottom-left-radius:25px;
+     }
+
+     .award  .btn-ra {
+        font-size: 16px;
+        transform: translate(-60px, 10px);
+        border-top-right-radius: 25px;
+        border-bottom-left-radius:25px;
+     }
+
+     .award  .btn-oa {
+        font-size: 16px;
+        transform: translate(-60px, 10px);
+        border-top-right-radius: 25px;
+        border-bottom-left-radius:25px;
+     }
+     
+    
+    /*award menu ends here */
+
+    /*journal starts here */
+
+    .jour_heading{
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      padding-top: 40px;
+      
+    }
+
+    .jour_heading2{
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      font-size: 25px;
+    }
+  
+    .section-journal {
+      padding: 80px 40px;
+    }
+  
+    .journal{
+      text-align: center;
+      overflow: hidden;
+      position: relative;
+      width: 350px;
+      height: 400px;
+      transform: translate(-80px, -80px);
+    }
+  
+    .journal img{
+      width: 100%;
+      height: auto;
+    }
+    /*journal ends here */
+    /* jury starts here */
+   
+
+   .section-jury {
+       padding: 70px 60px;
+       height: 1100px;
+   }
+   
+   .jury{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+       width: 300px;
+       height: 400px;
+       transform: translate(-60px, 40px);
+       
+                
+   }
+   
+   .jury img{
+       width: 100%;
+       height: auto;
+   }
+   
+   .jury .jury-content{
+       width: 80%;
+       color: #fff;
+       padding: 15px 0 10px 0;
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       z-index: 1;
+       transform: translate(40px, -200px);
+       transition: all 0.3s ease 0s;
+   }
+
+   /* jury ends here */
+}
+/* 784 ends here */
+
+
+/* 700 starts here */
+@media (max-width: 700px) {
+    .tm-section{
+        width: 95%;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    /*award menu starts here */
+    
+     .award .award-content{
+         width: 80%;
+         height: 35%;
+         transform: translate(40px, -172px);
+     }
+     
+     .award .title-award-ac{
+         font-size: 20px;
+         width: 80%;
+         transform: translate(5px, 40px);
+     }
+
+     .award .title-award-ra{
+        font-size: 20px;
+        width: 90%;
+        transform: translate(0px, 60px);
+     }
+
+     .award .title-award-oa{
+        font-size: 20px;
+        width: 90%;
+        transform: translate(0px, 60px);
+     }
+
+     .award  .btn-ac {
+        font-size: 16px;
+        transform: translate(-60px, -5px);
+        border-top-right-radius: 25px;
+        border-bottom-left-radius:25px;
+     }
+
+     .award  .btn-ra {
+        font-size: 16px;
+        transform: translate(-60px, 10px);
+        border-top-right-radius: 25px;
+        border-bottom-left-radius:25px;
+     }
+
+     .award  .btn-oa {
+        font-size: 16px;
+        transform: translate(-60px, 10px);
+        border-top-right-radius: 25px;
+        border-bottom-left-radius:25px;
+     }
+     
+    
+    /*award menu ends here */
+
+    /*advisory starts here */
+    
+    /*advisory ends here */
+
+    .invited_heading{
+     
+      color:#963838;
+      font-size: 35px;
+      
+     }
+ 
+     .section-invited {
+      padding: 70px 20px;
+     }
+  
+     .invited {
+      width: 300px;
+      height: 500px;
+      transform: translate(0px, -70px);
+     }
+  
+     .invited  img{
+      width: 100%;
+      height: auto;
+     }
+  
+     .invited  .invited-content{
+      width: 80%;
+      transform: translate(40px, -200px);
+     }
+  
+     .invited  .title-invited {
+      font-size: 25px;
+      width: 50%;
+      transform: translate(20px, 80px);
+     }
+ 
+     .invited  .title-invited2 {
+      font-size: 25px;
+      width: 60%;
+      transform: translate(25px, 110px);
+     }
+ 
+     /* invited ends here */
+
+
+    
+}
+/* 700 ends here */
+
+
+/* 600 starts here */
+@media (max-width: 600px) {
+    .tm-section{
+        width: 95%;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    /*award menu starts here */
+    .img_fluid{
+      width: 80%;
+      height: auto;
+    }
+    
+     .award .award-content{
+         width: 60%;
+         height: 35%;
+         transform: translate(40px, -172px);
+        
+     }
+     
+     .award .title-award-ac{
+         font-size: 20px;
+         width: 80%;
+         transform: translate(40px, 0px);
+         
+     }
+
+     .award .title-award-ra{
+        font-size: 20px;
+        width: 70%;
+        transform: translate(50px, 10px);
+     }
+
+     .award .title-award-oa{
+        font-size: 20px;
+        width: 70%;
+        transform: translate(50px, 10px);
+     }
+
+     .award  .btn-ac {
+        transform: translate(-50px, -25px);
+     }
+
+     .award  .btn-ra {
+      transform: translate(-50px, -25px);
+     }
+
+     .award  .btn-oa {
+      transform: translate(-50px, -25px);
+     }
+     
+    
+    /*award menu ends here */
+
+    /*journal starts here */
+
+    .jour_heading{
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        padding-top: 40px;
+        
+      }
+
+      .jour_heading2{
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+      }
+    
+      .section-journal {
+        border-radius: 5px;
+        padding: 70px 40px;
+    }
+    
+    /* Features section */
+    
+    .journal{
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        width: 350px;
+        height: 400px;
+        transform: translate(-60px, -80px);
+    }
+    
+    .journal img{
+        width: 90%;
+        height: auto;
+        transform: translateX(-10px);
+    }
+    
+    .journal .journal-content{
+        width: 71%;
+        color: #fff;
+        padding: 15px 0 10px 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        transform: translate(45px, -140px);
+        transition: all 0.3s ease 0s;
+    }
+    
+    
+    
+    
+    .section-journal  .btn {
+        background-color: #194d19;
+        border: none;
+        color: white;
+        padding: 16px 12px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 25px;
+        transform: translate(-130px, 10px);
+        width: 150px;
+        
+    }
+    
+     
+    
+    /*journal ends here */
+
+    /* oral starts here */
+      .oral_heading{
+        text-align: center;
+        color:#336699;
+        font-size: 35px;
+      }
+   
+       .oral img{
+           width: 80%;
+           height: auto;
+           transform: translateX(-50px);
+        }
+       
+       .oral .oral-content{
+           width: 80%;
+           color: #fff;
+           padding: 15px 0 10px 0;
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           z-index: 1;
+           transform: translate(0px, -100px);
+           transition: all 0.3s ease 0s;
+        }
+
+    /* oral ends here */
+
+    /* session chair starts here */
+
+    .session_heading{
+     text-align: center;
+     color:#663300;
+     font-size: 35px;
+     font-weight: bold;
+    }
+
+   .section-session {
+     padding: 70px 40px;
+    }
+
+   .session{
+     text-align: center;
+     overflow: hidden;
+     position: relative;
+     width: 300px;
+     height: 500px;
+     transform: translateY(-100px);
+    }
+
+    .session img{
+     width: 100%;
+     height: auto;
+     transform: translateX(-10px);
+    }
+
+    .session .session-content{
+     transform: translate(34px, -145px);
+    }
+
+    
+  /* session chair ends here */
+
+  /* jury starts here */
+    .jury_heading{
+        font-size: 25px;
+    }
+
+   .jury{
+       text-align: center;
+       overflow: hidden;
+       position: relative;
+       width: 300px;
+       height: 400px;
+       transform: translate(-30px, -40px);
+   }
+   
+   .jury img{
+       width: 100%;
+       height: auto;
+   }
+   
+   .jury .jury-content{
+       width: 80%;
+       color: #fff;
+       padding: 15px 0 10px 0;
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       z-index: 1;
+       transform: translate(40px, -200px);
+       transition: all 0.3s ease 0s;
+   }
+   
+   .jury .title-jury{
+       font-size: 25px;
+       font-weight: 600;
+       text-transform: capitalize;
+       position: relative;
+       color: #663939;
+       width: 50%;
+       transform: translate(-10px, 30px);
+   }
+
+   .jury .title-jury2{
+       font-size: 25px;
+       font-weight: 600;
+       text-transform: capitalize;
+       position: relative;
+       color:#663939;
+       width: 60%;
+       transform: translate(-20px, 50px);
+   }
+   
+   
+   .section-jury  .btn-jury {
+       background-color:#663300;
+       border: none;
+       color: white;
+       padding: 16px 32px;
+       text-align: center;
+       font-size: 16px;
+       margin: 4px 2px;
+       opacity: 0.6;
+       transition: 0.3s;
+       border-bottom-left-radius: 25px;
+       border-top-right-radius: 25px;
+       width: 150px;
+       transform: translate(-150px, 110px);
+       
+   }
+   
+     
+   .section-jury  .btn-jury:hover {
+       opacity: 1;
+       text-decoration: none;
+   }
+
+   .section-jury  .btn-jury2 {
+       background-color:#663300;
+       border: none;
+       color: white;
+       padding: 16px 32px;
+       text-align: center;
+       font-size: 16px;
+       margin: 4px 2px;
+       opacity: 0.6;
+       transition: 0.3s;
+       border-bottom-left-radius: 25px;
+       border-top-right-radius: 25px;
+       width: 150px;
+       transform: translate(-150px, 110px);
+       
+   }
+   
+     
+   .section-jury  .btn-jury2:hover {
+       opacity: 1;
+       text-decoration: none;
+   }
+
+   /* jury ends here */
+
+   /* invited starts here */
+   
+    .invited_heading{
+     
+     color:#963838;
+     font-size: 35px;
+     
+    }
+
+    .section-invited {
+     padding: 70px 20px;
+    }
+ 
+    .invited {
+     width: 300px;
+     height: 500px;
+     transform: translate(100px, -70px);
+    }
+ 
+    .invited  img{
+     width: 100%;
+     height: auto;
+    }
+ 
+    .invited  .invited-content{
+     width: 80%;
+     transform: translate(40px, -200px);
+    }
+ 
+    .invited  .title-invited {
+     font-size: 25px;
+     width: 50%;
+     transform: translate(20px, 80px);
+    }
+
+    .invited  .title-invited2 {
+     font-size: 25px;
+     width: 60%;
+     transform: translate(25px, 110px);
+    }
+
+    /* invited ends here */
+
+    /* abstract menu starts here */
+
+    
+    .abstract{
+     text-align: center;
+     overflow: hidden;
+     position: relative;
+     width: 330px;
+     height: 500px;
+     transform: translate(-60px, -80px);
+ }
+
+    .abstract img{
+     width: 100%;
+     height: auto;
+    }
+
+    .abstract .abstract-content{
+     width: 75%;
+     padding: 15px 0 10px 0;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     z-index: 1;
+     transform: translate(45px, -240px);
+     transition: all 0.3s ease 0s;
+    } 
+
+    .column{
+        padding-left: 10px;
+    }
+
+    /* abstract ends here */
+
+    /* org starts here */
+    .organizing .title-organizing2{
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: capitalize;
+        position: relative;
+        color: white;
+        width: 70%;
+        transform: translate(30px, -70px);
+     }
+
+
+     .organizing{
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        width: 350px;
+        height: 500px;
+        transform: translate(-50px, -80px);
+     }
+
+
+    /* org ends here */
+    
+}
+/* 600 ends here */
+
+@media (max-width: 500px){
+   /*award menu starts here */
+   .img_fluid{
+    width: 100%;
+    height: auto;
+  }
+  
+   .award .award-content{
+       width: 60%;
+       height: 35%;
+       transform: translate(40px, -172px);
+      
+   }
+   
+   .award .title-award-ac{
+       font-size: 17px;
+       width: 80%;
+       transform: translate(40px, 40px);
+       
+   }
+
+   .award .title-award-ra{
+    font-size: 17px;
+    width: 80%;
+      transform: translate(40px, 50px);
+   }
+
+   .award .title-award-oa{
+    font-size: 17px;
+    width: 75%;
+      transform: translate(40px, 50px);
+   }
+
+   .award  .btn-ac {
+      transform: translate(-30px, 15px);
+      width: 80px;
+      height: 40px;
+      padding: 5px 5px;
+      text-align: center;
+      font-size: 12px;
+      
+   }
+
+   .award  .btn-ra {
+    transform: translate(-30px, 15px);
+      width: 80px;
+      height: 40px;
+      padding: 5px 5px;
+      text-align: center;
+      font-size: 12px;
+   }
+
+   .award  .btn-oa {
+    transform: translate(-30px, 15px);
+      width: 80px;
+      height: 40px;
+      padding: 5px 5px;
+      text-align: center;
+      font-size: 12px;
+   }
+   
+  
+  /*award menu ends here */
+
+   /* invited starts here */
+   
+   .invited_heading{
+     
+    color:#963838;
+    font-size: 35px;
+    
+   }
+
+   .section-invited {
+    padding: 70px 20px;
+   }
+
+   .invited {
+    width: 300px;
+    height: 500px;
+    transform: translate(20px, -70px);
+   }
+
+   .invited  img{
+    width: 100%;
+    height: auto;
+   }
+
+   .invited  .invited-content{
+    width: 80%;
+    transform: translate(40px, -200px);
+   }
+
+   .invited  .title-invited {
+    font-size: 25px;
+    width: 50%;
+    transform: translate(20px, 80px);
+   }
+
+   .invited  .title-invited2 {
+    font-size: 25px;
+    width: 60%;
+    transform: translate(25px, 110px);
+   }
+
+   /* invited ends here */
+}
+
+
+/* 320starts here */
+@media (max-width: 320px) {
+    .tm-section{
+        width: 95%;
+    }
+    
+    .heading {
+        font-size: 20px;
+    }
+
+    /*award menu starts here */
+    
+     /*award menu starts here */
+    .img_fluid{
+      width: 100%;
+      height: auto;
+    }
+    
+     .award .award-content{
+         width: 60%;
+         height: 35%;
+         transform: translate(40px, -172px);
+        
+     }
+     
+     .award .title-award-ac{
+         font-size: 13px;
+         width: 60%;
+         transform: translate(30px, 60px);
+         
+     }
+
+     .award .title-award-ra{
+      font-size: 15px;
+      width: 60%;
+        transform: translate(30px, 70px);
+     }
+
+     .award .title-award-oa{
+      font-size: 15px;
+      width: 60%;
+        transform: translate(30px, 70px);
+     }
+
+     .award  .btn-ac {
+        transform: translate(-40px, 45px);
+        width: 80px;
+        height: 30px;
+        padding: 5px 5px;
+        text-align: center;
+        font-size: 12px;
+        
+     }
+
+     .award  .btn-ra {
+      transform: translate(-40px, 20px);
+        width: 80px;
+        height: 30px;
+        padding: 5px 5px;
+        text-align: center;
+        font-size: 12px;
+     }
+
+     .award  .btn-oa {
+      transform: translate(-40px, 20px);
+      width: 80px;
+      height: 30px;
+      padding: 5px 5px;
+      text-align: center;
+      font-size: 12px;
+     }
+     
+    
+    /*award menu ends here */
+     
+    
+    /* journal starts here */
+    .jour_heading{
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        padding-top: 40px;
+        font-size: 25px;
+      }
+
+      .jour_heading2{
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+      }
+    
+      .section-journal {
+        border-radius: 5px;
+        padding: 70px 40px;
+    }
+    
+    /* Features section */
+    
+    .journal{
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        width: 350px;
+        height: 400px;
+        transform: translate(-60px, -80px);
+    }
+    
+    .journal img{
+        width: 80%;
+        height: auto;
+        transform: translateX(-35px);
+    }
+    
+    .journal .journal-content{
+        width: 65%;
+        color: #fff;
+        padding: 15px 0 10px 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        transform: translate(30px, -160px);
+        transition: all 0.3s ease 0s;
+    }
+    
+    .journal .title-journal{
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: capitalize;
+        position: relative;
+        color: #194d19;
+        width: 70%;
+        transform: translate(30px, -10px);
+    }
+    
+    
+    .section-journal  .btn {
+        background-color: #194d19;
+        border: none;
+        color: white;
+        padding: 16px 12px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 0.6;
+        transition: 0.3s;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 25px;
+        transform: translate(-115px, 10px);
+        width: 120px;
+        
+    }
+    /* journal ends here */
+
+    /* oral starts here */
+    .oral_heading{
+        text-align: center;
+        color:#336699;
+        font-size: 35px;
+      }
+   
+       .oral img{
+           width: 65%;
+           height: auto;
+           transform: translateX(-75px);
+        }
+       
+       .oral .oral-content{
+           width: 80%;
+           color: #fff;
+           padding: 15px 0 10px 0;
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           z-index: 1;
+           transform: translate(-10px, -120px);
+           transition: all 0.3s ease 0s;
+        }
+
+        .oral .title-oral2{
+            transform: translate(20px, 30px);
+        }
+
+    /* oral ends here */
+
+    /* session chair starts here */
+
+    .session_heading{
+        text-align: center;
+        color:#663300;
+        font-size: 35px;
+        font-weight: bold;
+       }
+   
+      .section-session {
+        padding: 70px 4px;
+       }
+   
+      .session{
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        width: 300px;
+        height: 500px;
+        transform: translateY(-100px);
+       }
+   
+       .session img{
+        width: 100%;
+        height: auto;
+        transform: translateX(-10px);
+       }
+   
+       .session .session-content{
+        transform: translate(34px, -145px);
+       }
+
+     /* session chair ends here */
+
+     
+    /* jury starts here */
+    .jury_heading{
+        font-size: 18px;
+    }
+
+   .jury{
+       
+       transform: translate(-65px, -40px);
+   }
+   
+   .jury img{
+       width: 90%;
+       height: auto;
+   }
+   
+   
+   .jury .title-jury{
+       color: #663939;
+       width: 50%;
+       transform: translate(5px,-20px);
+   }
+
+   .jury .title-jury2{
+       color:#663939;
+       width: 60%;
+       transform: translate(-20px, 50px);
+   }
+    /* jury ends here */
+
+     /* invited starts here */
+ .invited_heading{
+  color:#663939;
+  font-size: 30px;
+ }
+
+ .invited {
+ width: 260px;
+ height: 500px;
+ transform: translate(0px, -30px);
+
+ }
+  .invited  img{
+ width: 90%;
+ height: auto;
+}
+
+
+.invited  .title-invited {
+  font-size: 25px;
+  width: 50%;
+  transform: translate(20px, 20px);
+}
+
+.invited  .title-invited2 {
+  font-size: 25px;
+  width: 70%;
+  transform: translate(20px, 45px);
+}
+
+
+.section-invited   .btn-invited  {
+  width: 150px;
+  transform: translate(-130px, 80px);
+  
+}
+
+
+.section-invited  .btn-invited2 {
+  width: 150px;
+  transform: translate(-130px, 80px);
+}
+/* invited ends here */
+
+    /* abstract menu starts here */
+
+    
+    .abstract{
+     text-align: center;
+     overflow: hidden;
+     position: relative;
+     width: 270px;
+     height: 500px;
+     transform: translate(-60px, -80px);
+    }
+
+    .abstract .title-abstract{
+     
+     width: 70%;
+     transform: translate(40px, -10px);
+    }
+
+
+    .section-abstract  .btn {
+     transform: translate(-85px, 60px);
+     width: 150px;
+    
+    }
+
+    .column{
+        padding-left: 10px;
+    }
+
+    /* abstract ends here */
+
+    /* scientific starts here */
+ 
+    .scientific{
+     width: 270px;
+     height: 500px;
+     transform: translate(-40px, -80px);
+    }
+
+    .scientific .scientific-content{
+     width: 75%;
+     transform: translate(35px, -290px);
+     transition: all 0.3s ease 0s;
+    } 
+
+    .scientific .title-scientific{
+     font-size: 22px;
+     width: 70%;
+     transform: translate(10px, -10px);
+    }
+
+
+    .section-scientific .btn {
+     padding: 6px 6px;
+     transform: translate(-135px, 89px);
+     width: 110px;
+     height: 40px;
+  
+   }
+   /* scientific ends here */
+
+   /* orgaz starts here */
+ 
+.organizing{
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  width: 270px;
+  height: 500px;
+  transform: translate(-40px, -80px);
+}
+
+
+.organizing .title-organizing{
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: capitalize;
+  position: relative;
+  color: #336699;
+  width: 70%;
+  transform: translate(10px, -80px);
+}
+
+
+.organizing .title-organizing2{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    color: white;
+    width: 70%;
+    transform: translate(10px, -80px);
+ }
+
+
+.section-organizing .btn {
+  
+  transform: translate(-115px, 10px);
+  width: 150px;
+  
+}
+
+   /* orgaz ends here */
+
+}
+
+/* 320 ends here */
+
+
+
+/* 280 starts here */
+@media (max-width: 280px) {   
+
+  /* side bar starts here */
+
+  /* side bar starts here */
+
+  .tm-brand-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 150px;
+    min-height: 100px;
+  }
+
+  .tm-brand {
+    padding: 20px 30px;
+    font-size: 20px;
+  }
+
+  .tm-main-nav {
+    margin-bottom: 60px;
+  }
+
+  .tm-social-links {
+    margin-bottom: 30px;
+  }
+  
+  .tm-sidebar {
+    width: 220px;
+    left: -250px;
+    padding: 15px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-toggler {
+    display: block;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    top: 30px;
+    left: 40px;
+    width: 60px;
+    height: 50px;
+    
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+  }
+
+  .tm-sidebar.show {
+    left: 0;
+  }
+
+  .tm-sidebar.show .navbar-toggler {
+    left:270px;
+  }
+
+  .tm-section-wrap {
+    width: 100%;
+  }
+
+.nav-link {
+    font-size: 1rem;
+}
+
+.nav-link:hover{
+  font-size: 1.15rem;
+  color: sandybrown;
+}
+
+
+  /*User info*/
+  .user {
+    font-size: 15px;
+    color: white;
+    transform: translate(0px, -20px);
+  }
+  
+  .username {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+  }
+  
+  
+  /*Logout button*/
+  .logoutbtn {
+    border: 1px solid white;
+    color: white;
+    padding: 10px 36px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    opacity: 0.6;
+  }
+  
+  
+  .tm-main-nav{
+    transform: translateY(20px);
+  }
+  
+  
+  .menu-img {
+   padding-top: 15px;
+   padding-bottom: 25px;
+   width: 120%;
+   transform: translate(-25px,-20px);
+  }
+
+  /* side bar ends here */
+
+  .tm-section{
+    width: 95%;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+/*award menu starts here */
+
+ .award .award-content{
+     width: 80%;
+     height: 35%;
+     transform: translate(40px, -172px);
+ }
+ 
+ .award .title-award-ac{
+    font-size: 13px;
+    width: 85%;
+    transform: translate(-5px, 70px);
+ }
+
+ .award .title-award-ra{
+    font-size: 15px;
+    width: 70%;
+    transform: translate(5px, 70px);
+  }
+
+  .award .title-award-oa{
+    font-size: 15px;
+    width: 70%;
+    transform: translate(5px, 80px);
+  }
+ 
+ .award  .btn-ac {
+    font-size: 12px;
+    transform: translate(-60px, 45px);
+    height: 35px;
+    padding: 5px 2px;
+    
+ }
+
+ .award  .btn-ra {
+    font-size: 14px;
+    transform: translate(-60px, 20px);
+    height: 40px;
+    padding: 5px 2px;
+ }
+
+ .award  .btn-oa {
+    font-size: 14px;
+    transform: translate(-60px, 30px);
+    height: 40px;
+    padding: 5px 2px;
+ }
+ 
+
+/*award menu ends here */
+
+/* journal starts here */
+  .jour_heading{
+    font-size: 20px;
+  }
+
+  .jour_heading2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+
+
+.journal{
+    width: 240px;
+    height: 400px;
+    transform: translate(-80px, -80px);
+    
+}
+
+.journal img{
+    width: 90%;
+    height: auto;
+    transform: translateX(5px);
+}
+
+.journal .journal-content{
+    width: 45%;
+    transform: translate(40px, -200px);
+    transition: all 0.3s ease 0s;
+    
+}
+
+.journal .title-journal{
+    font-size: 15px;
+    width: 80%;
+    transform: translate(30px, -10px);
+}
+
+
+.section-journal  .btn {
+    transform: translate(-25px, 10px);
+    width: 100px;
+    
+}
+/* journal ends here */
+
+/* oral starts here */
+.oral_heading{
+    text-align: center;
+    color:#336699;
+    font-size: 35px;
+  }
+
+  .oral{
+    transform: translateX(-65px);
+  }
+
+   .oral img{
+       width: 65%;
+       height: auto;
+       transform: translateX(-35px);
+    }
+   
+   .oral .oral-content{
+       width: 80%;
+       transform: translate(10px, -120px);
+       
+    }
+
+    .oral .title-oral2{
+        transform: translate(20px, 30px);
+    }
+
+/* oral ends here */
+
+/* session chair starts here */
+
+   .session_heading{
+    font-size: 25px;
+   }
+
+  .section-session {
+    padding: 70px 4px;
+   }
+
+  .session{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 250px;
+    height: 500px;
+    transform: translateY(-100px);
+    
+   }
+
+   .session img{
+    width: 90%;
+    height: auto;
+    transform: translateX(-10px);
+   }
+
+   .session .session-content{
+    width: 62%;
+    height: 40%;
+    transform: translate(37px, -235px);
+    
+   }
+   .session .title-session{
+    font-size: 20px;
+    width: 80%;
+    transform: translate(15px, 10px);
+   }
+
+
+   .section-session  .btn-sn {
+    width:140px;
+    transform: translate(-75px, -40px);
+
+   }
+
+  /* session chair ends here */
+
+ 
+ /* jury starts here */
+ .jury_heading{
+    font-size: 18px;
+ }
+
+.jury{
+   
+   transform: translate(-65px, -40px);
+}
+
+.jury img{
+   width: 75%;
+   height: auto;
+   transform: translate(-15px,0px);
+}
+
+
+.jury .title-jury{
+   color:#663939;
+   width: 50%;
+   font-size: 20px;
+   transform: translate(5px,-20px);
+}
+
+.jury .title-jury2{
+   color:#663939;
+   width: 50%;
+   font-size: 20px;
+   transform: translate(0px, 0px);
+}
+/* jury ends here */
+
+ /* invited starts here */
+ .invited_heading{
+  color:#663939;
+  font-size: 30px;
+ }
+
+ .invited {
+ width: 260px;
+ height: 500px;
+ transform: translate(-10px, -30px);
+
+ }
+  .invited  img{
+ width: 90%;
+ height: auto;
+}
+
+
+.invited  .title-invited {
+  font-size: 25px;
+  width: 50%;
+  transform: translate(20px, 20px);
+}
+
+.invited  .title-invited2 {
+  font-size: 25px;
+  width: 70%;
+  transform: translate(20px, 45px);
+}
+
+
+.section-invited   .btn-invited  {
+  width: 150px;
+  transform: translate(-130px, 80px);
+  
+}
+
+
+.section-invited  .btn-invited2 {
+  width: 150px;
+  transform: translate(-130px, 80px);
+}
+/* invited ends here */
+
+/* abstract menu starts here */
+
+
+.abstract{
+ transform: translate(-70px, -80px);
+}
+
+.abstract .title-abstract{
+ width: 70%;
+ transform: translate(40px, -10px);
+}
+
+
+.section-abstract  .btn {
+ transform: translate(-85px, 60px);
+ width: 150px;
+
+}
+
+.column{
+    padding-left: 10px;
+}
+
+/* abstract ends here */
+
+/* scientific starts here */
+
+.scientific{
+ width: 240px;
+ height: 500px;
+ transform: translate(-40px, -80px);
+}
+
+.scientific .scientific-content{
+ width: 75%;
+ transform: translate(35px, -290px);
+ transition: all 0.3s ease 0s;
+} 
+
+.scientific .title-scientific{
+ font-size: 20px;
+ width: 70%;
+ transform: translate(10px, -40px);
+}
+
+
+.section-scientific .btn {
+ padding: 6px 6px;
+ transform: translate(-120px, 55px);
+ width: 110px;
+ height: 40px;
+
+}
+ /* scientific ends here */
+
+ /* orgaz starts here */
+
+ .organizing{
+width: 270px;
+height: 500px;
+transform: translate(-50px, -80px);
+ }
+
+
+ .organizing .title-organizing{
+font-size: 25px;
+font-weight: 600;
+color: #336699;
+width: 70%;
+transform: translate(10px, -80px);
+ }
+
+
+ .organizing .title-organizing2{
+font-size: 25px;
+color: white;
+width: 70%;
+transform: translate(10px, -80px);
+ }
+
+
+ .section-organizing .btn {
+transform: translate(-115px, 10px);
+width: 150px;
+
+ }
+
+
+
+
+}
+/* 280 ends here */
